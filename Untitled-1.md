@@ -629,3 +629,39 @@
     font-weight: 400;
     line-height: 38.4px;
 }
+
+
+.footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-white, 
+    .social-media {
+        transform: translateX(140%);
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .footer-content h4 {
+        margin-top: 1.5rem;
+    }
+
+
+    .hero-section {
+        flex-direction: row;
+        width: 100%;
+        background-color: red;
+    }
+    .hero-text {
+        width: 50%;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .hero-image {
+        width: 55%;
+        margin-top: 8rem;
+    }
