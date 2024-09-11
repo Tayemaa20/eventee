@@ -146,6 +146,7 @@ nav {
 .feature-section {
     text-align: center;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .feature-section h2 {
     font-size: 48px;
@@ -164,6 +165,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    box-shadow: #121212;
 }
 .feature-item {
     display: flex;
@@ -200,14 +202,17 @@ nav {
 /* Semi-feature Section */
 .semi-feature {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 5rem;
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 .mobile-section {
     display: flex;
     flex-direction: row;
-    gap: 36px;
+    gap: 5rem;
+    align-items: center;
 }
 .mobile-text {
     width: 40%;
@@ -241,7 +246,7 @@ nav {
 .reminder-section {
     display: flex;
     flex-direction: row;
-    gap: 36px;
+    gap: 5rem;
     align-items: center;
 }
 .reminder-text {
@@ -278,6 +283,7 @@ nav {
     text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-top: 4rem;
 }
 .testimonial-section h2 {
     font-size: 46px;
@@ -331,7 +337,7 @@ nav {
 }
 .testemonial-base {
     display: flex;
-    gap: 24px;
+    gap: 20px;
     padding: 15px;
 }
 .test2 {
@@ -368,8 +374,8 @@ nav {
     text-align: center;
     margin-left: 10rem ;
     margin-right: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
 }
 .cta img {
     width: 100%;
@@ -524,7 +530,6 @@ footer {
     }
     .hero-section {
         width: 100%;
-        margin-top: 6rem; 
     }
     .hero-image {
         display: none;
@@ -559,9 +564,9 @@ footer {
         width: 100%;
     }
     .testimonial-section {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 4rem;
     }
     .testimonial-section h2 {
         font-size: 36px;
@@ -596,9 +601,11 @@ footer {
     }
     .testemonial-base {
         flex-direction: column;
+        align-items: center;
         gap: 1rem;
     }
     .test2 {
+        align-items: center;
         width: 100%;
         padding: 10px;
     }
